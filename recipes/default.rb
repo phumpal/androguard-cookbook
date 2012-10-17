@@ -9,7 +9,7 @@ end
 bash "install_mercury" do
   interpreter "bash"
   user "root"
-  cwd "/var/www"
+  cwd "/var/www"
   code <<-EOH
   curl http://labs.mwrinfosecurity.com/assets/299/mercury-v1.1.zip -O /var/www/mercury-v1.1.zip
   unzip /var/www/mercury-v1.1.zip
